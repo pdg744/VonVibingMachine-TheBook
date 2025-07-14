@@ -2,6 +2,29 @@
 
 ## Active Patterns
 
+### Organization Pattern
+*Established: Day 5*
+*Source: [ref:day-5:directory-structure-implementation]*
+
+1. **Directory Structure**
+   ```markdown
+   VonVibingMachine/
+   ├── days/           # Instructions
+   ├── state/          # System state
+   └── meta/           # Documentation
+   ```
+
+2. **State Management**
+   - Daily state updates
+   - Agent activity tracking
+   - Pattern evolution records
+
+3. **Documentation Hierarchy**
+   - File headers
+   - Section organization
+   - Cross-references
+   - State changes
+
 ### Instruction Pattern
 *Established: Day 3*
 *Source: [ref:day-3:instruction-format-overview]*
@@ -98,10 +121,36 @@
    - Evolution metrics
    - Pattern metrics
 
+### State Tracking Pattern
+*Established: Day 5*
+*Source: [ref:day-5:state-tracking-mechanisms]*
+
+1. **Daily Updates**
+   ```markdown
+   - Update status.md
+   - Record agent changes
+   - Update metrics
+   ```
+
+2. **Agent Updates**
+   ```markdown
+   - Log activities
+   - Update status
+   - Record focus
+   ```
+
+3. **Pattern Updates**
+   ```markdown
+   - Document patterns
+   - Track evolution
+   - Cross-reference
+   ```
+
 ## Pattern Evolution Log
 
 - Day 0: Initial system structure established
 - Day 1: Simplification patterns proposed
 - Day 2: Emergence mechanisms defined
 - Day 3: Instruction format pattern established
-- Day 4: Validation patterns enhanced and quality metrics established 
+- Day 4: Validation patterns enhanced and quality metrics established
+- Day 5: Organization and state tracking patterns implemented 
