@@ -1,0 +1,9 @@
+# mdbook build output
+/book/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp 
