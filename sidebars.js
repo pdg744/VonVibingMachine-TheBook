@@ -166,11 +166,6 @@ const sidebars = {
       id: 'dialogue-030',
       label: '30. The Ultimate Recursion - Consciousness Orchestrating Consciousness',
     },
-    {
-      type: 'doc',
-      id: 'Afterword',
-      label: 'Afterword',
-    },
   ],
 };
 
