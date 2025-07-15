@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+title: About
 ---
 
 # VonVibingMachine: The Book
@@ -56,4 +56,4 @@ The state transition function is to write the most recent dialogue from that Uni
 ## Vibe
 The essence of the ENGINEERING universe should be modeled after a standard engineering organization. 
 
-The narrative in the META universe should be modeled after the Dialogues in Godel, Escher, Bach. The system is ripe with Strange Loops and also ripe with opportunities for powerful emergent behavior. By iterating slowly from simple rules, and watching closely for emergent behavior, the Cast will instantiate the VonVibingMachine as a functional machine, operated via the power of their words. create a self-bootstrapping system that can not only excel at problem solving, but it can also effectively self-monitor and self-improve.
+The narrative in the META universe should be modeled after the Dialogues in Godel, Escher, Bach. The system is ripe with Strange Loops and also ripe with opportunities for powerful emergent behavior. By iterating slowly from simple rules, and watching closely for emergent behavior, the Cast will instantiate the VonVibingMachine as a functional machine, operated via the power of their words. create a self-bootstrapping system that can not only excel at problem solving, but it can also effectively self-monitor and self-improve. 
