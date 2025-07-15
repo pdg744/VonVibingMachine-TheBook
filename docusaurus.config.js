@@ -49,7 +49,6 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/', // Serve the docs at the site's root
-          homePageId: 'about', // Set about as the default page
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/pdg744/VonVibingMachine-TheBook/tree/main/',
         },
