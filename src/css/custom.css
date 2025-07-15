@@ -1,0 +1,76 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #4a90e2;
+  --ifm-color-primary-dark: #3d7bc7;
+  --ifm-color-primary-darker: #3972ba;
+  --ifm-color-primary-darkest: #2f5e96;
+  --ifm-color-primary-light: #5da4ed;
+  --ifm-color-primary-lighter: #66a9ee;
+  --ifm-color-primary-lightest: #80b7f1;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #64b5f6;
+  --ifm-color-primary-dark: #42a5f5;
+  --ifm-color-primary-darker: #2196f3;
+  --ifm-color-primary-darkest: #1e88e5;
+  --ifm-color-primary-light: #81c784;
+  --ifm-color-primary-lighter: #90caf9;
+  --ifm-color-primary-lightest: #bbdefb;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-background-color: #121212;
+  --ifm-navbar-background-color: #1e1e1e;
+  --ifm-footer-background-color: #1e1e1e;
+}
+
+/* Custom styling for the VonVibingMachine theme */
+.navbar__title {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+/* Enhanced blockquote styling */
+blockquote {
+  border-left: 4px solid var(--ifm-color-primary);
+  margin: 1rem 0;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+/* Better code block styling */
+pre {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] pre {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Enhanced table styling */
+table {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+[data-theme='dark'] table {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Dialogue-specific styling */
+.dialogue-content {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
