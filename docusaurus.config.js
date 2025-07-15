@@ -27,7 +27,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'paulgafni', // Usually your GitHub org/user name.
+  organizationName: 'pdg744', // Usually your GitHub org/user name.
   projectName: 'VonVibingMachine-TheBook', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -50,7 +50,7 @@ const config = {
           sidebarPath: './sidebars.js',
           routeBasePath: '/', // Serve the docs at the site's root
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/paulgafni/VonVibingMachine-TheBook/tree/main/',
+          editUrl: 'https://github.com/pdg744/VonVibingMachine-TheBook/tree/main/',
         },
         blog: false, // Disable blog functionality
         theme: {
@@ -85,7 +85,7 @@ const config = {
             label: 'The Book',
           },
           {
-            href: 'https://github.com/paulgafni/VonVibingMachine-TheBook',
+            href: 'https://github.com/pdg744/VonVibingMachine-TheBook',
             label: 'GitHub',
             position: 'right',
           },
@@ -116,7 +116,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/paulgafni/VonVibingMachine-TheBook',
+                href: 'https://github.com/pdg744/VonVibingMachine-TheBook',
               },
             ],
           },

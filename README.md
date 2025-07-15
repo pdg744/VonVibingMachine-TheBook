@@ -104,7 +104,7 @@ All dialogue content is stored in Markdown files in the `docs/` directory. The s
 
 ## 🤝 Contributing
 
-This is a creative fiction project. For any issues or suggestions, please open an issue in the GitHub repository.
+This is a creative fiction project. For any issues or suggestions, please open an issue in the [GitHub repository](https://github.com/pdg744/VonVibingMachine-TheBook).
 
 ## 📄 License
 
