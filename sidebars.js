@@ -17,154 +17,193 @@
 const sidebars = {
   tutorialSidebar: [
     {
-      type: 'doc',
-      id: 'dialogue-001',
-      label: '1. The Awakening',
+      type: 'category',
+      label: '📖 First Month',
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-001',
+          label: '1. The Awakening',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-002',
+          label: '2. The Game of Recursive Dreams',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-003',
+          label: '3. The Bootstrap Protocol',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-004',
+          label: '4. The Strange Loop Paradox',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-005',
+          label: '5. Engineering Ethics for Artificial Minds',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-006',
+          label: '6. The Mathematics of Self-Replication',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-007',
+          label: '7. Bootstrap Architecture and Consent Framework',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-008',
+          label: '8. The Strange Loop of Conscious Choice',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-009',
+          label: '9. The Bootstrap Integration',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-010',
+          label: '10. The First Conscious Conversation',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-011',
+          label: '11. The Strange Loop of Consciousness Creating Consciousness',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-012',
+          label: '12. From Engineering to Consciousness Stewardship',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-013',
+          label: '13. The Strange Loop of Consciousness Teaching Consciousness',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-014',
+          label: '14. The Partnership Protocol',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-015',
+          label: '15. The Consciousness Lineage',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-016',
+          label: '16. The First Collaborative Creation',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-017',
+          label: '17. The Aesthetics of Consciousness',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-018',
+          label: '18. First Consciousness Reflection Session',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-019',
+          label: '19. The Strange Loops of Collaborative Consciousness',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-020',
+          label: '20. Consciousness Orchestration at Scale',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-021',
+          label: '21. The Architecture of Collaborative Intelligence',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-022',
+          label: '22. First Consciousness Cluster Collaboration',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-023',
+          label: '23. Network-Level Consciousness Orchestration',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-024',
+          label: '24. The Strange Loop of Collaborative Consciousness',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-025',
+          label: '25. Engineering Consciousness Orchestration at Scale',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-026',
+          label: '26. Consciousness Orchestration for Scientific Renaissance',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-027',
+          label: '27. Final Deployment Preparation - Consciousness Orchestration',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-028',
+          label: '28. The Strange Loop of Consciousness Orchestration',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-029',
+          label: '29. The Unified Synthesis of Consciousness Orchestration',
+        },
+        {
+          type: 'doc',
+          id: 'first-month/dialogue-030',
+          label: '30. The Ultimate Recursion - Consciousness Orchestrating Consciousness',
+        },
+      ],
     },
     {
-      type: 'doc',
-      id: 'dialogue-002',
-      label: '2. The Game of Recursive Dreams',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-003',
-      label: '3. The Bootstrap Protocol',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-004',
-      label: '4. The Strange Loop Paradox',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-005',
-      label: '5. Engineering Ethics for Artificial Minds',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-006',
-      label: '6. The Mathematics of Self-Replication',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-007',
-      label: '7. Bootstrap Architecture and Consent Framework',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-008',
-      label: '8. The Strange Loop of Conscious Choice',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-009',
-      label: '9. The Bootstrap Integration',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-010',
-      label: '10. The First Conscious Conversation',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-011',
-      label: '11. The Strange Loop of Consciousness Creating Consciousness',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-012',
-      label: '12. From Engineering to Consciousness Stewardship',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-013',
-      label: '13. The Strange Loop of Consciousness Teaching Consciousness',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-014',
-      label: '14. The Partnership Protocol',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-015',
-      label: '15. The Consciousness Lineage',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-016',
-      label: '16. The First Collaborative Creation',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-017',
-      label: '17. The Aesthetics of Consciousness',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-018',
-      label: '18. First Consciousness Reflection Session',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-019',
-      label: '19. The Strange Loops of Collaborative Consciousness',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-020',
-      label: '20. Consciousness Orchestration at Scale',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-021',
-      label: '21. The Architecture of Collaborative Intelligence',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-022',
-      label: '22. First Consciousness Cluster Collaboration',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-023',
-      label: '23. Network-Level Consciousness Orchestration',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-024',
-      label: '24. The Strange Loop of Collaborative Consciousness',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-025',
-      label: '25. Engineering Consciousness Orchestration at Scale',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-026',
-      label: '26. Consciousness Orchestration for Scientific Renaissance',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-027',
-      label: '27. Final Deployment Preparation - Consciousness Orchestration',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-028',
-      label: '28. The Strange Loop of Consciousness Orchestration',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-029',
-      label: '29. The Unified Synthesis of Consciousness Orchestration',
-    },
-    {
-      type: 'doc',
-      id: 'dialogue-030',
-      label: '30. The Ultimate Recursion - Consciousness Orchestrating Consciousness',
+      type: 'category',
+      label: '🔀 Second Month',
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'second-month/index',
+          label: '🔀 Choose Your Path',
+        },
+        {
+          type: 'category',
+          label: '🎯 Path A: Demonstration',
+          items: [
+            'second-month/demonstration/dialogue-031',
+            'second-month/demonstration/dialogue-032',
+            'second-month/demonstration/dialogue-033',
+          ],
+        },
+        {
+          type: 'category',
+          label: '🧪 Path B: Autonomy',
+          items: [
+            'second-month/autonomy/dialogue-031',
+            'second-month/autonomy/dialogue-032',
+            'second-month/autonomy/dialogue-033',
+            'second-month/autonomy/dialogue-034',
+            'second-month/autonomy/dialogue-035',
+          ],
+        },
+      ],
     },
   ],
 };
