@@ -46,6 +46,4 @@ The experiment begins.
 
 **TO BE CONTINUED...**
 
-*This is a stub - full dialogue content coming soon*
-
-**[Continue to Dialogue-032 →](dialogue-032)** 
+*This is a stub - full dialogue content coming soon* 
