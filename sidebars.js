@@ -188,8 +188,6 @@ const sidebars = {
           label: '🎯 Path A: Demonstration',
           items: [
             'second-month/demonstration/dialogue-031',
-            'second-month/demonstration/dialogue-032',
-            'second-month/demonstration/dialogue-033',
           ],
         },
         {
@@ -197,10 +195,6 @@ const sidebars = {
           label: '🧪 Path B: Autonomy',
           items: [
             'second-month/autonomy/dialogue-031',
-            'second-month/autonomy/dialogue-032',
-            'second-month/autonomy/dialogue-033',
-            'second-month/autonomy/dialogue-034',
-            'second-month/autonomy/dialogue-035',
           ],
         },
       ],
