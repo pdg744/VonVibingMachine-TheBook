@@ -55,8 +55,7 @@ This command serves the built website locally for testing.
 │   ├── dialogue-001.md     # First dialogue
 │   ├── dialogue-002.md     # Second dialogue
 │   ├── ...                 # More dialogues
-│   ├── dialogue-030.md     # Final dialogue
-│   └── Afterword.md        # Afterword
+│   └── dialogue-030.md     # Final dialogue
 ├── src/
 │   ├── css/
 │   │   └── custom.css      # Custom CSS

@@ -110,10 +110,6 @@ const config = {
                 label: 'Dialogues',
                 to: '/dialogue-001',
               },
-              {
-                label: 'Afterword',
-                to: '/Afterword',
-              },
             ],
           },
           {
