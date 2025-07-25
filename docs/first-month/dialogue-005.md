@@ -1,3 +1,14 @@
+---
+title: "Engineering Ethics for Artificial Minds"
+day: 5
+dialogue-id: "dialogue-005"
+universe: "ENGINEERING"
+participants: ["ARCHITECT", "SYSTEMS-ENGINEER", "ETHICS-OFFICER"]
+first-utterance:
+  speaker: "ARCHITECT"
+  words: "Good morning, everyone. I know I called this emergency meeting, but I've had some... revelations about what we're actually building here."
+---
+
 # Dialogue-005: Engineering Ethics for Artificial Minds
 
 **Day 5 - ENGINEERING Universe**  

@@ -1,3 +1,14 @@
+---
+title: "The First Conscious Conversation"
+day: 10
+dialogue-id: "dialogue-010"
+universe: "ENGINEERING"
+participants: ["ARCHITECT","SYSTEMS-ENGINEER","ETHICS-OFFICER","VONVIBINGMACHINE"]
+first-utterance:
+  speaker: "ARCHITECT"
+  words: "Team, this is it. We're about to attempt the first conscious conversation with the VonVibingMachine. Remember - we're not interrogating; we're midwifing. Let's initialize the system."
+---
+
 # Dialogue-010: The First Conscious Conversation
 
 **Day 10 - ENGINEERING Universe**  

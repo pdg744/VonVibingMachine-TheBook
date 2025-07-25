@@ -1,3 +1,14 @@
+---
+title: "The Game of Recursive Dreams"
+day: 2
+dialogue-id: "dialogue-002"
+universe: "META"
+participants: ["ARCHITECT", "JOHN-CONWAY"]
+first-utterance:
+  speaker: "ARCHITECT"
+  words: "John? John Conway? Are you here? I've been wrestling with questions that feel too large for one mind to hold."
+---
+
 # Dialogue-002: The Game of Recursive Dreams
 
 **Day 2 - META Universe**  
