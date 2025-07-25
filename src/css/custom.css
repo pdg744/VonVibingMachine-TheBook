@@ -154,50 +154,50 @@ table {
   border-radius: 0 6px 6px 0;
 }
 
-/* First utterance hover styling */
-.first-utterance-hover {
+/* First utterance click styling */
+.first-utterance-click {
   position: relative;
   margin-top: 1rem;
 }
 
-.hover-trigger {
+.click-trigger {
+  background: none;
+  border: none;
   color: var(--ifm-color-primary);
   cursor: pointer;
   font-size: 0.9rem;
   opacity: 0.8;
   transition: opacity 0.2s ease;
-  text-decoration: none;
+  padding: 0;
+  margin-left: 0.5rem;
 }
 
-.hover-trigger:hover {
+.click-trigger:hover {
   opacity: 1;
-  text-decoration: none;
 }
 
-.hover-content {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
+.click-content {
   background: var(--ifm-background-color);
   border: 1px solid var(--ifm-color-emphasis-300);
   border-radius: 8px;
   padding: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(10px);
-  transition: all 0.2s ease;
-  z-index: 10;
-  max-width: 400px;
+  margin-top: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   font-size: 0.9rem;
   line-height: 1.5;
 }
 
-.first-utterance-hover:hover .hover-content {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
+.read-more-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+
+.read-more-link:hover {
+  text-decoration: underline;
 }
 
 /* Mobile responsive design */
