@@ -201,7 +201,6 @@ table {
 }
 
 /* Mobile responsive design */
-/* Mobile responsive design */
 @media (max-width: 768px) {
   .timeline {
     padding: 2rem 0;
@@ -242,43 +241,5 @@ table {
   .timeline-content blockquote {
     padding: 0.75rem;
     font-size: 0.9rem;
-  }
-  
-  /* Mobile-specific preview interactions */
-  .hover-trigger {
-    min-height: 44px; /* Touch-friendly target size */
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5rem;
-    border-radius: 6px;
-    background: var(--ifm-color-emphasis-100);
-    border: 1px solid var(--ifm-color-emphasis-300);
-  }
-  
-  .hover-trigger:active {
-    background: var(--ifm-color-emphasis-200);
-  }
-  
-  /* Show preview on mobile when parent is focused (for accessibility) */
-  .first-utterance-hover:focus-within .hover-content {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-  }
-  
-  /* Make preview content clickable on mobile */
-  .hover-content {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    right: auto;
-    margin-top: 0.5rem;
-    cursor: pointer;
-    border: 2px solid var(--ifm-color-primary);
-  }
-  
-  .hover-content:active {
-    background: var(--ifm-color-emphasis-200);
   }
 }
