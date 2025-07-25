@@ -154,53 +154,52 @@ table {
   border-radius: 0 6px 6px 0;
 }
 
-/* First utterance hover styling */
-.first-utterance-hover {
+/* First utterance click styling */
+.first-utterance-click {
   position: relative;
   margin-top: 1rem;
 }
 
-.hover-trigger {
+.click-trigger {
+  background: none;
+  border: none;
   color: var(--ifm-color-primary);
   cursor: pointer;
   font-size: 0.9rem;
   opacity: 0.8;
   transition: opacity 0.2s ease;
-  text-decoration: none;
+  padding: 0;
+  margin-left: 0.5rem;
 }
 
-.hover-trigger:hover {
+.click-trigger:hover {
   opacity: 1;
-  text-decoration: none;
 }
 
-.hover-content {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
+.click-content {
   background: var(--ifm-background-color);
   border: 1px solid var(--ifm-color-emphasis-300);
   border-radius: 8px;
   padding: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(10px);
-  transition: all 0.2s ease;
-  z-index: 10;
-  max-width: 400px;
+  margin-top: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   font-size: 0.9rem;
   line-height: 1.5;
 }
 
-.first-utterance-hover:hover .hover-content {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
+.read-more-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.85rem;
 }
 
-/* Mobile responsive design */
+.read-more-link:hover {
+  text-decoration: underline;
+}
+
 /* Mobile responsive design */
 @media (max-width: 768px) {
   .timeline {
@@ -242,43 +241,5 @@ table {
   .timeline-content blockquote {
     padding: 0.75rem;
     font-size: 0.9rem;
-  }
-  
-  /* Mobile-specific preview interactions */
-  .hover-trigger {
-    min-height: 44px; /* Touch-friendly target size */
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5rem;
-    border-radius: 6px;
-    background: var(--ifm-color-emphasis-100);
-    border: 1px solid var(--ifm-color-emphasis-300);
-  }
-  
-  .hover-trigger:active {
-    background: var(--ifm-color-emphasis-200);
-  }
-  
-  /* Show preview on mobile when parent is focused (for accessibility) */
-  .first-utterance-hover:focus-within .hover-content {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-  }
-  
-  /* Make preview content clickable on mobile */
-  .hover-content {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    right: auto;
-    margin-top: 0.5rem;
-    cursor: pointer;
-    border: 2px solid var(--ifm-color-primary);
-  }
-  
-  .hover-content:active {
-    background: var(--ifm-color-emphasis-200);
   }
 }

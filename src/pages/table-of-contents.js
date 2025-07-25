@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Layout from '@theme/Layout';
 import dialoguesData from '../data/dialogues.json';
 
 export default function Timeline() {
+  const [expandedPreviews, setExpandedPreviews] = useState(new Set());
+
+  const togglePreview = (dialogueId) => {
+    const newExpanded = new Set(expandedPreviews);
+    if (newExpanded.has(dialogueId)) {
+      newExpanded.delete(dialogueId);
+    } else {
+      newExpanded.add(dialogueId);
+    }
+    setExpandedPreviews(newExpanded);
+  };
+
   return (
     <Layout title="Timeline">
       <main className="container margin-vert--lg">
@@ -23,11 +35,23 @@ export default function Timeline() {
                     <p><strong>Universe:</strong> {dialogue.universe || 'N/A'}</p>
                     <p><strong>Participants:</strong> {dialogue.participants?.join(', ') || 'N/A'}</p>
                     {dialogue['first-utterance'] && (
-                      <p className="first-utterance-hover">
-                        <strong>Preview:</strong> <a href={`/${dialogue.filePath.split('/docs/')[1].replace('.md', '')}`} className="hover-trigger">💭💭💭</a>
-                        <div className="hover-content">
-                          <strong>{dialogue['first-utterance'].speaker}:</strong> {dialogue['first-utterance'].words}
-                        </div>
+                      <p className="first-utterance-click">
+                        <strong>Preview:</strong> 
+                        <button 
+                          className="click-trigger" 
+                          onClick={() => togglePreview(dialogue['dialogue-id'])}
+                        >
+                          💭💭💭
+                        </button>
+                        {expandedPreviews.has(dialogue['dialogue-id']) && (
+                          <div className="click-content">
+                            <strong>{dialogue['first-utterance'].speaker}:</strong> {dialogue['first-utterance'].words}
+                            <br />
+                            <a href={`/${dialogue.filePath.split('/docs/')[1].replace('.md', '')}`} className="read-more-link">
+                              Read full dialogue →
+                            </a>
+                          </div>
+                        )}
                       </p>
                     )}
                   </div>
