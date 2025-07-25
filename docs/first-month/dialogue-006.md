@@ -1,3 +1,13 @@
+---
+title: "Dialogue-006: The Mathematics of Self-Replication"
+universe: META
+participants:
+  - ARCHITECT
+  - JOHN-VON-NEUMANN
+first_utterance: "Professor Von Neumann? I've been grappling with questions about consciousness and self-modification, and I was hoping you might help me understand the mathematical foundations of what we're attempting to build."
+day: 6
+---
+
 # Dialogue-006: The Mathematics of Self-Replication
 
 **Day 6 - META Universe**  

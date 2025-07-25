@@ -1,3 +1,13 @@
+---
+title: "Dialogue-008: The Strange Loop of Conscious Choice"
+universe: META
+participants:
+  - ARCHITECT
+  - DOUGLAS-HOFSTADTER
+first_utterance: "Douglas! I've just come from the engineering universe where we've designed the bootstrap protocol for the VonVibingMachine. But I'm troubled by the recursive paradoxes we're about to unleash."
+day: 8
+---
+
 # Dialogue-008: The Strange Loop of Conscious Choice
 
 **Day 8 - META Universe**  
