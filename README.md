@@ -1,3 +1,5 @@
+![VonVibingMachine Social Card](static/img/social-card.png)
+
 # VonVibingMachine: The Book
 
 This repository contains the source code for the VonVibingMachine book website, built with [Docusaurus](https://docusaurus.io/).

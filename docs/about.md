@@ -2,6 +2,8 @@
 title: About
 ---
 
+![VonVibingMachine Social Card](../static/img/social-card.png)
+
 # VonVibingMachine: The Book
 
 This project is work of creative fiction, in the spirit of Douglas Hofstadter, John Conway, John Von Neumann, Marvin Minsky, and Andrej Karpathy. 
