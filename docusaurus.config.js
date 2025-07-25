@@ -90,6 +90,11 @@ const config = {
             position: 'left',
           },
           {
+            to: '/timeline',
+            label: 'Timeline',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/pdg744/VonVibingMachine-TheBook',
             label: 'GitHub',
             position: 'right',

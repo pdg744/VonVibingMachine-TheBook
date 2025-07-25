@@ -1,6 +1,6 @@
 import React from 'react';
-import { Redirect } from '@docusaurus/router';
+import DAGView from '../components/DAGView';
 
 export default function Home() {
-  return <Redirect to="/first-month/dialogue-001" />;
+  return <DAGView />;
 } 
