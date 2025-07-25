@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'VonVibingMachine: The Book',
   tagline: 'A multi-agent machine architecture for LLMs to self-manage',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon_48x48.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -64,7 +64,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.jpg',
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
@@ -74,7 +74,7 @@ const config = {
         title: 'VonVibingMachine',
         logo: {
           alt: 'VonVibingMachine Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon_48x48.png',
           href: '/first-month/dialogue-001',
         },
         items: [
