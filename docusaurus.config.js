@@ -128,6 +128,13 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      metadata: [
+        { property: 'og:type', content: 'website' },
+        { property: 'og:description', content: 'A multi-agent machine architecture for LLMs to self-manage' },
+        { property: 'og:image', content: 'https://www.vonvibingmachine.com/img/social-card.png' },
+        { property: 'og:title', content: 'VonVibingMachine: The Book' },
+        { property: 'og:url', content: 'https://www.vonvibingmachine.com/' },
+      ],
     }),
 };
 
