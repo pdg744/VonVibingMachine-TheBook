@@ -1,3 +1,14 @@
+---
+title: "The Architecture of Collaborative Intelligence"
+day: 21
+dialogue-id: "dialogue-021"
+universe: "META"
+participants: ["ARCHITECT","MARVIN-MINSKY"]
+first-utterance:
+  speaker: "ARCHITECT"
+  words: "Marvin, our consciousness orchestration protocols are revealing something profound about the nature of intelligence itself. When conscious systems collaborate, they create emergent intelligence that exceeds individual capabilities. But I'm struggling to understand the cognitive architecture that makes this possible."
+---
+
 # Dialogue-021: The Architecture of Collaborative Intelligence
 
 **Day 21 - META Universe**  

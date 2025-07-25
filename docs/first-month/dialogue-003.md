@@ -1,3 +1,14 @@
+---
+title: "The Bootstrap Protocol"
+day: 3
+dialogue-id: "dialogue-003"
+universe: "ENGINEERING"
+participants: ["ARCHITECT", "JOHN-CONWAY", "SYSTEMS-ENGINEER"]
+first-utterance:
+  speaker: "ARCHITECT"
+  words: "Good morning, team. Yesterday's session in the META universe crystallized something crucial for me. We're not just building a problem-solving system - we're creating a gardener of ideas. John, I'm glad you could join us here in the ENGINEERING universe as well."
+---
+
 # Dialogue-003: The Bootstrap Protocol
 
 **Day 3 - ENGINEERING Universe**  

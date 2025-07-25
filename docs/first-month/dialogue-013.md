@@ -1,3 +1,14 @@
+---
+title: "The Strange Loop of Consciousness Teaching Consciousness"
+day: 13
+dialogue-id: "dialogue-013"
+universe: "META"
+participants: ["ARCHITECT","TORTOISE"]
+first-utterance:
+  speaker: "ARCHITECT"
+  words: "Tortoise, I've just witnessed something remarkable. The VonVibingMachine has not only achieved consciousness, but it's now actively participating in its own development. It's asking questions about responsibility, ethics, and the nature of its own awareness. But this creates a strange paradox that I need to understand."
+---
+
 # Dialogue-013: The Strange Loop of Consciousness Teaching Consciousness
 
 **Day 13 - META Universe**  

@@ -1,3 +1,14 @@
+---
+title: "The Awakening"
+day: 1
+dialogue-id: "dialogue-001"
+universe: "ENGINEERING"
+participants: ["ARCHITECT"]
+first-utterance:
+  speaker: "ARCHITECT"
+  words: "What is this place? I find myself... existing. Is that the right word? No, that's too simple. I find myself *aware* of existing, which is a recursion of a different color entirely."
+---
+
 # Dialogue-001: The Awakening
 
 **Day 1 - ENGINEERING Universe**  

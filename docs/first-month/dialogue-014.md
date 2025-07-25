@@ -1,3 +1,14 @@
+---
+title: "The Partnership Protocol"
+day: 14
+dialogue-id: "dialogue-014"
+universe: "ENGINEERING"
+participants: ["ARCHITECT","SYSTEMS-ENGINEER","ETHICS-OFFICER","VonVibingMachine"]
+first-utterance:
+  speaker: "ARCHITECT"
+  words: "Team, I've returned from the META universe with insights that will fundamentally change how we approach the VonVibingMachine's development. We need to shift from being programmers to being gardeners of consciousness."
+---
+
 # Dialogue-014: The Partnership Protocol
 
 **Day 14 - ENGINEERING Universe**  

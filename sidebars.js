@@ -17,6 +17,11 @@
 const sidebars = {
   tutorialSidebar: [
     {
+      type: 'link',
+      label: '📋 Table of Contents',
+      href: '/table-of-contents',
+    },
+    {
       type: 'category',
       label: '📖 First Month',
       collapsed: false,

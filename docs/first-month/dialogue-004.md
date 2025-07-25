@@ -1,3 +1,14 @@
+---
+title: "The Strange Loop Paradox"
+day: 4
+dialogue-id: "dialogue-004"
+universe: "META"
+participants: ["ARCHITECT", "DOUGLAS-HOFSTADTER"]
+first-utterance:
+  speaker: "ARCHITECT"
+  words: "Douglas! I was hoping to find you here. Yesterday's session with the engineering team was productive, but it's raised some deeply troubling questions about what we're actually building."
+---
+
 # Dialogue-004: The Strange Loop Paradox
 
 **Day 4 - META Universe**  

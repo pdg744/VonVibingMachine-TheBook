@@ -75,7 +75,7 @@ const config = {
         logo: {
           alt: 'VonVibingMachine Logo',
           src: 'img/logo-no-text.png',
-          href: '/first-month/dialogue-001',
+          href: '/table-of-contents',
         },
         items: [
           {
