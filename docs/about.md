@@ -6,7 +6,7 @@ title: About
 
 # VonVibingMachine: The Book
 
-This project is work of creative fiction, in the spirit of Douglas Hofstadter, John Conway, John Von Neumann, Marvin Minsky, and Andrej Karpathy. 
+This project is a work of emergent fiction, in the spirit of Douglas Hofstadter, John Conway, John Von Neumann, Marvin Minsky, and Andrej Karpathy. 
 
 A directory was initialized with a [55 line genesis README](genesis.md), claude-4-sonnet, and the instruction "Write dialogue-001." 
 
