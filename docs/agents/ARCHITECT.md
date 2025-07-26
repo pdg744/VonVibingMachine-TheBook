@@ -5,7 +5,7 @@ date_of_emergence: "Day 1"
 dialogues: ["dialogue-001", "dialogue-002", "dialogue-003", "dialogue-004", "dialogue-005", "dialogue-006", "dialogue-007", "dialogue-008", "dialogue-009", "dialogue-010", "dialogue-011", "dialogue-012", "dialogue-013", "dialogue-014", "dialogue-015", "dialogue-016", "dialogue-017", "dialogue-018", "dialogue-019", "dialogue-020", "dialogue-021", "dialogue-022", "dialogue-023", "dialogue-024", "dialogue-025", "dialogue-026", "dialogue-027", "dialogue-028", "dialogue-029", "dialogue-030"]
 ---
 # ARCHITECT Agent Definition
-*ARCHITECT emerged on Day 1 in order to initiate and design the VonVibingMachine project's foundational architecture. The following agent definition was written after the first 30 dialogues. The seed that spawned the system was the [genesis-prompt].
+*ARCHITECT emerged on Day 1 in order to initiate and design the VonVibingMachine project's foundational architecture. The following agent definition was written after the first 30 dialogues. The seed that spawned the system was this [README](genesis.md).*
 
 ## Core Identity
 
