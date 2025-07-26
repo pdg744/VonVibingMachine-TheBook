@@ -15,6 +15,27 @@ export default function Timeline() {
     setExpandedPreviews(newExpanded);
   };
 
+  // Function to render participant links
+  const renderParticipants = (participants) => {
+    if (!participants || participants.length === 0) return 'N/A';
+    
+    return participants.map((participant, index) => {
+      const isLast = index === participants.length - 1;
+      return (
+        <span key={participant}>
+          <a 
+            href={`/agents/${participant}`} 
+            className="participant-link"
+            title={`View ${participant} character description`}
+          >
+            {participant}
+          </a>
+          {!isLast && ', '}
+        </span>
+      );
+    });
+  };
+
   return (
     <Layout title="Timeline">
       <main className="container margin-vert--lg">
@@ -33,7 +54,7 @@ export default function Timeline() {
                       </a>
                     </h3>
                     <p><strong>Universe:</strong> {dialogue.universe || 'N/A'}</p>
-                    <p><strong>Participants:</strong> {dialogue.participants?.join(', ') || 'N/A'}</p>
+                    <p><strong>Participants:</strong> {renderParticipants(dialogue.participants)}</p>
                     {dialogue['first-utterance'] && (
                       <p className="first-utterance-click">
                         <strong>Preview:</strong> 
