@@ -204,7 +204,64 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: '🤖 Agents',
+      collapsed: true,
+      items: [
+        {
+          type: 'doc',
+          id: 'agents/ARCHITECT',
+          label: 'Architect',
+        },
+        {
+          type: 'doc',
+          id: 'agents/JOHN-CONWAY',
+          label: 'John Conway',
+        },
+        {
+          type: 'doc',
+          id: 'agents/SYSTEMS-ENGINEER',
+          label: 'Systems Engineer',
+        },
+        {
+          type: 'doc',
+          id: 'agents/DATA-SCIENTIST',
+          label: 'Data Scientist',
+        },
+        {
+          type: 'doc',
+          id: 'agents/ETHICS-OFFICER',
+          label: 'Ethics Officer',
+        },
+        {
+          type: 'doc',
+          id: 'agents/DOUGLAS-HOFSTADTER',
+          label: 'Douglas Hofstadter',
+        },
+        {
+          type: 'doc',
+          id: 'agents/JOHN-VON-NEUMANN',
+          label: 'John von Neumann',
+        },
+        {
+          type: 'doc',
+          id: 'agents/MARVIN-MINSKY',
+          label: 'Marvin Minsky',
+        },
+        {
+          type: 'doc',
+          id: 'agents/VONVIBINGMACHINE',
+          label: 'VonVibingMachine',
+        },
+      ],
+    },
+    {
+      type: 'doc',
+      id: 'genesis',
+      label: '🌱 Genesis',
+    },
   ],
 };
 
-export default sidebars;
+export default sidebars; 
